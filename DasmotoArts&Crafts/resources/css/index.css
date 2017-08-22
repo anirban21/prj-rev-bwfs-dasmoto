@@ -1,0 +1,32 @@
+h1{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+  font-family: Helvetica;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+}
+h2{
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+h2.Brushes{
+  background-color: mediumspringgreen;
+}
+h2.Frames{
+  background-color: lightcoral;
+}
+h2.Paint{
+  background-color: skyblue;
+}
+h3, p{
+  font-family: Helvetica; /*This rule wasn't explicitly specified in the spec, but seemed like
+  it was required when comparing results visually with the sample provided */
+}
+.Price{
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue;
+}
